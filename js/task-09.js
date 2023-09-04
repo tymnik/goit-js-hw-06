@@ -1,4 +1,4 @@
-const widget = document.querySelector(".widget");
+const widget = document.querySelector("body");
 const colorSpan = widget.querySelector(".color");
 const changeColorBtn = widget.querySelector(".change-color");
 
@@ -8,7 +8,6 @@ function getColor() {
 
   widget.style.backgroundColor = randomColor;
   colorSpan.textContent = randomColor;
-  console.log(randomColor);
 }
 
 function getRandomHexColor() {

@@ -20,4 +20,4 @@ const markup = images
   )
   .join("");
 list.insertAdjacentHTML("beforeend", markup);
-console.dir(list);
+

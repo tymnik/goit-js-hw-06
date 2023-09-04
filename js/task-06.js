@@ -5,7 +5,6 @@ input.addEventListener("blur", checking);
 function checking() {
   const dataLength = parseInt(input.getAttribute("data-length"));
   const inputValue = input.value;
-  console.log(inputValue);
 
   if (inputValue.length === dataLength) {
     input.classList.add("valid");

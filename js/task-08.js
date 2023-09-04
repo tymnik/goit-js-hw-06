@@ -5,8 +5,6 @@ function onSubmit(evt) {
   evt.preventDefault();
 
   const { email, password } = evt.currentTarget.elements;
-  // console.log(email.value);
-  // console.log(password.value);
 
   const data = {
     email: email.value,

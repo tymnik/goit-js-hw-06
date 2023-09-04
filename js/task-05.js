@@ -10,5 +10,4 @@ function onInput(evt) {
   } else {
     userNameOutput.textContent = "Anonymous";
   }
-  console.dir(evt.currentTarget.value);
 }

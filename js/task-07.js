@@ -5,5 +5,4 @@ rangeInput.addEventListener("input", changeSize);
 function changeSize() {
   const fontSize = rangeInput.value;
   textElement.style.fontSize = `${fontSize}px`;
-  console.log(fontSize);
 }
